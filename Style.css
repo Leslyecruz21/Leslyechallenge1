@@ -8,7 +8,6 @@ body{
     background-color: rosybrown;
     position: fixed;
     top: 0;
-    left: 0;
     width: 100%;
     display: flex;
     justify-content: flex-end;
@@ -21,29 +20,29 @@ body{
 
 li{
     list-style: none;
+    margin: 15px;
 }
 
 a{
     color: white;
     text-decoration: none;
     font-size: 1.5em;
-    padding: 2rem;
 }
 a:hover{
     background-color:pink;
+    
 }
 
 #welcome-section{
-    background-image: url(file:///Users/leslyecruz/Documents/img/IMG_0687.JPG);
-    background-size: 100%;
+    background-image: url(./img/IMG_0687.JPG);
+    background-size: cover;
     width: 100%;
-    height: 100vh;
+    height: 750px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-   
-     ;
+    margin-top: 90px;
 }
 
 h1{
@@ -71,6 +70,11 @@ h1{
     );
 }
 
+.project-img{
+    width: 200px;
+    height: 200px;
+}
+
 .projects > h2{
     font-size: 2rem;
     color: white;
@@ -84,9 +88,7 @@ h1{
     color: white;
     width: 100%;
     background-color: antiquewhite;
-    padding: 1em;
     margin: 0;
-    padding: 2rem;
 }
 
 
@@ -126,7 +128,12 @@ font-size: 1.5rem;
 }
 
 .contact-links{
-    
+    display: flex;
+    justify-content: space-evenly;
     flex-direction: row;
 
+}
+
+#profile-link{
+    margin: 25px;
 }
